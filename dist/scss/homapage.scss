@@ -32,9 +32,22 @@
 }
 
 .academy-circle {
-    img {
-        max-height: 50px;
+    @media only screen and (min-width: 768px) {
+        width: 150px;
+        height: 150px;
+        img {
+            max-height: 50px;
+        }
     }
+
+    @media only screen and (max-width: 767px) {
+        width: 105px;
+        height: 105px;
+        img {
+            max-height: 35px;
+        }
+    }
+
 }
 
 .teams-section {
