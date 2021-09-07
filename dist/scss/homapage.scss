@@ -1,0 +1,75 @@
+#nav-fix {
+    .nav-link {
+        color: #323232;
+
+        &:not(.active) {
+            opacity: .5;
+        }
+    }
+}
+
+.academy-section {
+    background-image: url('../img/academy-bg.png');
+    background-size: cover;
+
+    .academy-before-icon,
+    .academy-after-icon {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        opacity: .7;
+    }
+
+    .academy-before-icon {
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .academy-after-icon {
+        right: 10px;
+        top: 10px;
+    }
+}
+
+.academy-circle {
+    img {
+        max-height: 50px;
+    }
+}
+
+.teams-section {
+    a:hover{
+        .team-card{
+            background-color: #f1f1f1 !important;
+        }
+
+    }
+    .team-card {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+.testimonial-section {
+    .testimonial-card {
+        padding: 50px 150px 50px 50px;
+        border-radius: 20px;
+
+        .testimonial-before-element {
+            content: '';
+            position: absolute;
+            font-size: 100px;
+            width: 60px;
+            height: 50px;
+            top: -80px;
+            left: 40px;
+        }
+
+        img.testimonial-img {
+            right: 0;
+            bottom: 0;
+            max-width: 180px;
+            margin-top: 30px;
+        }
+    }
+}
