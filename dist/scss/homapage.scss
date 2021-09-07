@@ -38,12 +38,13 @@
 }
 
 .teams-section {
-    a:hover{
-        .team-card{
+    a:hover {
+        .team-card {
             background-color: #f1f1f1 !important;
         }
 
     }
+
     .team-card {
         width: 140px;
         height: 140px;
@@ -52,20 +53,34 @@
 
 .testimonial-section {
     .testimonial-card {
-        padding: 50px 150px 50px 50px;
         border-radius: 20px;
-        @media only screen and (max-width:767px){
-            padding-right: 50px;
+
+        @media only screen and (min-width:768px) {
+            padding: 50px 150px 50px 50px;
+        }
+
+        @media only screen and (max-width:767px) {
+            padding: 30px 20px;
         }
 
         .testimonial-before-element {
             content: '';
             position: absolute;
             font-size: 100px;
-            width: 60px;
             height: 50px;
-            top: -80px;
-            left: 40px;
+
+            @media only screen and (min-width: 768px) {
+                width: 60px;
+                top: -80px;
+                left: 40px;
+            }
+
+            @media only screen and (max-width: 767px) {
+                width: 30px;
+                top: -90px;
+                left: 20px;
+
+            }
         }
 
         img.testimonial-img {
@@ -73,7 +88,8 @@
             bottom: 0;
             max-width: 180px;
             margin-top: 30px;
-            @media only screen and (max-width: 767px){
+
+            @media only screen and (max-width: 767px) {
                 max-width: 100px;
             }
         }
