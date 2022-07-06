@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoPaperForms</title>
+  <link rel="stylesheet"
+    href="https://www.nopaperforms.com/wp-content/themes/wp-bootstrap-starter/combine-critical.css">
+  <link rel="stylesheet" href="https://www.nopaperforms.com/wp-content/themes/wp-bootstrap-starter/style.css">
+  <style>
+    .btn-success {
+      background: #4955a7;
+      border-color: #4955a7;
+    }
+
+    .btn-success:hover {
+      background: #fff;
+      color: #4955a7;
+      border-color: #4955a7;
+    }
+
+    .scale-block {
+      border-radius: 12px;
+      min-height: 180px;
+    }
+
+    .feature-section .feature-heading:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 45px;
+      width: 45px;
+      background: #faf8e1;
+      z-index: -1;
+      border-radius: 6px;
+    }
+
+    .feature-section .feature-heading.success:before {
+      background: #dcfcef;
+    }
+
+    .feature-section .feature-heading.info:before {
+      background: #f5ecfd;
+    }
+
+    .feature-section .feature-heading.danger:before {
+      background: #ffebdc;
+    }
+
+    .power-section:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 50%;
+      background: #f1f2ff;
+      z-index: -1;
+    }
+
+    @media only screen and (min-width: 767px) {
+      .power-section:before {
+        content: '';
+      }
+    }
+
+    .sky-bg {
+      background: #f1f2ff;
+    }
+
+    .product-card {
+      transition: all .5s ease-in-out;
+    }
+
+    .product-card:hover {
+      transform: scale(1.2);
+      background: rgba(0, 0, 0, .01);
+      box-shadow: inset 0 0 30px rgba(0, 0, 0, .05);
+    }
+
+    .integrations-section:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: calc(50% + 70px);
+      background: #7781e8;
+      z-index: -1;
+    }
+
+    @media only screen and (min-width: 767px) {
+      .integrations-section:after {
+        content: '';
+      }
+    }
+
+    .integrations-section .integrations-img {
+      min-height: 200px;
+    }
+
+    .testimonial-section:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      background: #212541;
+      z-index: -2;
+
+    }
+
+    @media only screen and (min-width: 767px) {
+      .testimonial-section:after {
+        height: calc(70%);
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      .testimonial-section:after {
+        height: calc(100%);
+      }
+    }
+
+    .testimonial-section .testimonial-img {
+      min-width: 305px;
+      min-height: 330px;
+      max-width: 305px;
+      max-height: 330px;
+      margin: 0 auto;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .testimonial-section .testimonial-img {
+        margin-top: 60px;
+      }
+    }
+
+    .testimonial-section .testimonial-img:before {
+      content: '';
+      position: absolute;
+      width: 290px;
+      height: 330px;
+      background: #33395d;
+      z-index: -1;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+    }
+
+    .testimonial-section .testimonial-img img {
+      position: absolute;
+      z-index: 1;
+      top: -70px;
+      right: 6px;
+      margin: 0 auto;
+    }
+
+    .testimonial-section .testimonial-heading {
+      position: relative;
+    }
+
+    .testimonial-section .testimonial-heading:before {
+      content: '';
+      position: absolute;
+      width: 100px;
+      height: 70px;
+      opacity: .4;
+      background: url('https://www.nopaperforms.com/wp-content/uploads/2022/07/quotation-marks.png') no-repeat;
+      background-size: cover;
+      left: -30px;
+      top: -25px;
+      z-index: -1;
+    }
+
+
+    /* *{outline: 1px solid red;} */
+  </style>
+</head>
+
+<body>
+  <section class="py-5 hero-section">
+    <div class="container pt-md-5">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6">
+          <h1 class="text-dark leading-3">
+            <span class="font-weight-normal">One Platform to <strong class="font-weight-bold">Attract, Engage, and
+                Grow</strong> your Enrolments</span>
+          </h1>
+          <button type="button"
+            class="rounded-pill btn btn-success btn-custom-big mr-3 eds-on-hover npfWidgetButton npfWidget-9c7307f9d27fb462ae105b234b10b4af">Schedule
+            a Demo <i class="npfico-arrow-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <img src="https://www.nopaperforms.com/wp-content/uploads/2022/07/hero-img.png" alt="npf" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <p class="mb-0 text-md-center h5 font-weight-normal text-dark">
+            Trusted and ❤️ by 1500+ educational institutions across India
+          </p>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-12">
+          <div class="bg-light text-center py-4">Client Logos</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row ">
+        <div class="col-sm-12 col-md-4 ">
+          <div class="">
+            <h2 class="h2 text-dark font-weight-bold">Scale. <br class="d-none d-md-block" /> Exponentially.</h2>
+            <p class="col-12 col-md-9 px-0 text-muted">Learn why NoPaperForms is the defacto choice for anyone in
+              education looking to scale!</p>
+            <img src="https://www.nopaperforms.com/wp-content/uploads/2022/07/scale-img.png" alt="npf"
+              class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <div class="row align-items-center">
+            <div class="col-sm-12 col-md-4">
+              <div
+                class="bg-white shadow scale-block pl-3 pr-5 pt-md-3 pt-0 w-100 mb-4 d-flex d-md-block flex-column justify-content-center align-items-center">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt=""
+                  class="col-4 mb-2 pl-0">
+                <h3 class="h6 text-dark font-weight-normal my-2 my-md-1">Higher Education</h3>
+                <p class="text-muted small">One Platform to Streamline, Manage, and Scale your Admissions </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div
+                class="bg-white shadow scale-block pl-3 pr-5 pt-md-3 pt-0 w-100 mb-4 d-flex d-md-block flex-column justify-content-center align-items-center">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt=""
+                  class="col-4 mb-2 pl-0">
+                <h3 class="h6 text-dark font-weight-normal my-2 my-md-1">K-12</h3>
+                <p class="text-muted small">A comprehensive Enrolment Automation Platform for leading K-12 schools </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div
+                class="bg-white shadow scale-block pl-3 pr-5 pt-md-3 pt-0 w-100 mb-4 d-flex d-md-block flex-column justify-content-center align-items-center">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt=""
+                  class="col-4 mb-2 pl-0">
+                <h3 class="h6 text-dark font-weight-normal my-2 my-md-1">Playscholls</h3>
+                <p class="text-muted small">The only Education CRM you need to Attract and Engage parents </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div
+                class="bg-white shadow scale-block pl-3 pr-5 pt-md-3 pt-0 w-100 mb-4 d-flex d-md-block flex-column justify-content-center align-items-center">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt=""
+                  class="col-4 mb-2 pl-0">
+                <h3 class="h6 text-dark font-weight-normal my-2 my-md-1">Coaching &Training Institutes</h3>
+                <p class="text-muted small">Managing multiple centres, made easy </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div
+                class="bg-white shadow scale-block pl-3 pr-5 pt-md-3 pt-0 w-100 mb-4 d-flex d-md-block flex-column justify-content-center align-items-center">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt=""
+                  class="col-4 mb-2 pl-0">
+                <h3 class="h6 text-dark font-weight-normal mb-1 mt-3">EdTech</h3>
+                <p class="text-muted small">A comprehensive platform, engineered for hyper growth!</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div
+                class="bg-white shadow scale-block pl-3 pr-5 pt-md-3 pt-0 w-100 mb-4 d-flex d-md-block flex-column justify-content-center align-items-center">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt=""
+                  class="col-4 mb-2 pl-0">
+                <h3 class="h6 text-dark font-weight-normal my-2 my-md-1">Online Degree Programs</h3>
+                <p class="text-muted small">A unified platform to attract, engage, and enrol learners at scale </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 feature-section">
+    <div class="container">
+      <div class="row justify-content-center py-4">
+        <div class="col-6 col-sm-6 col-md-3 pl-4 pl-md-5 mb-5 mb-md-0">
+          <h3 class="feature-heading mb-2 position-relative font-weight-bold">Plug-n-Play</h3>
+          <p class="small text-muted mb-0">Getting started is as <br class="d-none d-sm-block" /> easy as 1,2,...</p>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 pl-4 pl-md-5 mb-5 mb-md-0">
+          <h3 class="feature-heading mb-2 position-relative font-weight-bold success">Zero</h3>
+          <p class="small text-muted mb-0">Missed <br class="d-none d-sm-block" /> Opportunities</p>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 pl-4 pl-md-5 mb-5 mb-md-0">
+          <h3 class="feature-heading mb-2 position-relative font-weight-bold info">40%</h3>
+          <p class="small text-muted mb-0">Marketing ROI <br class="d-none d-sm-block" /> optimization</p>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 pl-4 pl-md-5 mb-5 mb-md-0">
+          <h3 class="feature-heading mb-2 position-relative font-weight-bold danger">100%</h3>
+          <p class="small text-muted mb-0">Control and <br class="d-none d-sm-block" /> Visibility</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-0 power-section position-relative">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6 sky-bg">
+          <h3 class="h2 font-weight-bold text-dark mb-0 mt-5 mt-md-0">The power of ONE!</h3>
+          <i class="mb-3 d-block">Designed to go beyond a CRM...</i>
+          <p class="mb-3 col-11 px-0">The industry is flooded with off the shelf education CRMs, stand-alone
+            application management
+            systems, offline forms, ERPs, and more. This scattered approach creates silos between teams, leads to a
+            sharp dip in efficiency, a broken user experience, and directly impacts the conversions.</p>
+          <p class="mb-5 mb-md-3 col-11 px-0">On the other hand, an all-in-one solution focused solely on the education
+            industry gives power
+            to your teams to scale. With the complete enquiry to enrolment funnel being managed on one single platform,
+            let your teams do what they are best at – Scale Enrolments!</p>
+        </div>
+        <div class="col-sm-12 col-md-6 text-center">
+          <img src="https://www.nopaperforms.com/wp-content/uploads/2022/07/landing-crm.png" alt="crm"
+            class="img-fluid my-3 my-md-0" style="max-height: 450px">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row no-gutters align-items-center justify-content-center pt-5">
+        <div class="col-12 text-center mb-4">
+          <h2 class="h3 text-dark font-weight-bold">A unified suite of products, designed to help you unlock your
+            potential</h2>
+        </div>
+        <div class="col-12 col-sm-10">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-4">
+              <div class="product-card text-center py-4">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt="npf"
+                  class="img-fluid">
+                <h3 class="mt-2 mb-0">Enrolment Cloud</h3>
+                <p class="small text-muted col-10 px-0 mx-auto">Automate and Manage the entire <br
+                    class="d-none d-md-block" /> admission
+                  cycle,
+                  from enquiry to enrolment</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="product-card text-center py-4">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt="npf"
+                  class="img-fluid">
+                <h3 class="mt-2 mb-0">Education CRM</h3>
+                <p class="small text-muted col-10 px-0 mx-auto">Empower your teams to work together <br
+                    class="d-none d-md-block" /> and
+                  convert
+                  more!</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="product-card text-center py-4">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt="npf"
+                  class="img-fluid">
+                <h3 class="mt-2 mb-0">Admission Automation</h3>
+                <p class="small text-muted col-10 px-0 mx-auto">Provide your prospective students with an <br
+                    class="d-none d-md-block" />
+                  interactive experience they will remember</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="product-card text-center py-4">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt="npf"
+                  class="img-fluid">
+                <h3 class="mt-2 mb-0">Education Chatbot</h3>
+                <p class="small text-muted col-10 px-0 mx-auto">Meet Niaa, the smartest chatbot <br
+                    class="d-none d-md-block" /> in the
+                  education industry</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="product-card text-center py-4">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt="npf"
+                  class="img-fluid">
+                <h3 class="mt-2 mb-0">UniApply</h3>
+                <p class="small text-muted col-10 px-0 mx-auto">Collect, Manage, and Track all <br
+                    class="d-none d-md-block" /> your fee
+                  payments</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="product-card text-center py-4">
+                <img src="https://www.nopaperforms.com/wp-content/uploads/2022/06/Parent-Sentiment-Index.png" alt="npf"
+                  class="img-fluid">
+                <h3 class="mt-2 mb-0">UniPe</h3>
+                <p class="small text-muted col-10 px-0 mx-auto">Collect, Manage, and Track all your <br
+                    class="d-none d-md-block" /> fee
+                  payments</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 position-relative integrations-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-5">
+          <h4 class="h3 text-dark font-weight-bold mb-5">
+            No matter what apps <br class="d-none d-md-block" /> you use today, NoPaperForms <br
+              class="d-none d-md-block" /> fits easily into your current<br class="d-none d-md-block" /> tech stack with
+            plug-n-play <br class="d-none d-md-block" /> connectors!
+          </h4>
+          <a href="javascript:void(0);" class="text-primary">
+            Learn More <i class="npfico-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-7 d-md-flex d-none">
+          <div class="integrations-img"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 position-relative testimonial-section mt-5">
+    <div class="container py-5">
+      <div class="row align-items-end justify-content-center">
+        <div class="col-sm-12 col-md-6 ml-4">
+          <h4 class="h2 testimonial-heading position-relative text-white mb-4">
+            I am absolutely delighted to tell <br class="d-none d-md-block" /> you our journey with NPF has been <br
+              class="d-none d-md-block" /> amazing for the last 3 years.
+          </h4>
+          <p class="testimonial-client text-white mb-0"> Prof. Anand Prakash Mishra</p>
+          <small class="d-block text-white">Director Law Admissions</small>
+          <small class="d-block text-white">Jindal Global Law School</small>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="testimonial-img position-relative">
+            <img src="https://www.nopaperforms.com/wp-content/uploads/2022/07/Anand-Prakash-Mishra.png" alt="Anand">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="p-0 p-md-5 text-center">
+            <img src="https://www.nopaperforms.com/wp-content/uploads/2022/07/review-1.png" alt=""
+              class="col-11">
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="p-0 p-md-5 text-center">
+            <img src="https://www.nopaperforms.com/wp-content/uploads/2022/07/review-2.png" alt=""
+              class="col-11">
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="p-0 p-md-5 text-center">
+            <img src="https://www.nopaperforms.com/wp-content/uploads/2022/07/review-3.png" alt=""
+              class="col-11">
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="p-0 p-md-5 text-center">
+            <img src="https://www.nopaperforms.com/wp-content/uploads/2022/07/review-4.png" alt=""
+              class="col-11">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
